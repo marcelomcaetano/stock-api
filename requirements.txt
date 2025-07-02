@@ -1,0 +1,20 @@
+# --- Framework Principal ---
+Flask==3.0.3
+
+# --- Documentação da API (OpenAPI/Swagger) ---
+# A linha abaixo garante a instalação da biblioteca com a interface Swagger
+flask-openapi3[swagger]==4.2.0
+
+# --- Banco de Dados (ORM) ---
+SQLAlchemy==2.0.41
+Flask-SQLAlchemy==3.1.1
+
+# --- Validação de Dados ---
+pydantic==2.8.2
+
+# --- Comunicação entre Domínios (Frontend <-> Backend) ---
+# ADIÇÃO: Biblioteca para resolver o problema de CORS
+Flask-Cors==6.0.1
+
+# --- Dependências Auxiliares ---
+openapi-pydantic==0.5.1
