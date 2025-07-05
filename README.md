@@ -38,7 +38,7 @@ Siga os passos abaixo para configurar e executar o ambiente de desenvolvimento l
 
 1.  **Clone o repositório:**
     ```bash
-    git clone <url-do-seu-repositorio>
+    git clone https://github.com/marcelomcaetano/stock-api.git
     cd stock-api
     ```
 
